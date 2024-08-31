@@ -1,0 +1,47 @@
+/* thằng nào vừa có user vừa có actived thì có background */
+.user.actived{
+    background-color: orange;
+}
+/* fix kích thước cho mấy cái nút */
+.user, #computer{
+    width: 100px;
+    font-size: 50px;
+}
+
+.title-of-div{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-of{
+    color: gold;
+    border: 5px inset orangered;
+    display: inline-block;
+    text-shadow: -2px -1px 2px orangered;
+    background-color: burlywood;
+    border-radius: 5%;
+}
+/*  */
+.notification{
+    margin-top: 80px;
+}
+
+/* background */
+.background{
+    width: 1300px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.background img{
+    display: block;
+    width: 100%;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
